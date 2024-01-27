@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+.banner-promo {
+  margin             : 30px 0 60px 0;
+  width              : 100%;
+  background         : url("../img/lcorner.png") 0 0 no-repeat #ffffff;
+  -webkit-box-shadow : 0 9px 30px 1px rgba(0, 0, 0, .2), 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow    : 0 9px 30px 1px rgba(0, 0, 0, .2), 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow         : 0 9px 30px 1px rgba(0, 0, 0, .2), 0 0 0 rgba(0, 0, 0, 0);
+}
+.banner-promo .banner-promo-bg {
+  width      : 100%;
+  background : url("../img/rcorner.png") right bottom no-repeat transparent;
+  display: flex;
+  flex-direction: row;
+  padding    : 59px 30px 53px 30px;
+}
+.banner-promo .banner-promo-content-img {
+  width: 35%;
+  align-self: flex-end;
+  padding-right: 50px;
+}
+.banner-promo .banner-promo-content-img img {
+  width: 100%;
+  max-width: 204px;
+  float: right;
+}
+.banner-promo .banner-promo-content {
+  width: 65%;
+  padding-top: 10px;
+}
+.banner-promo .banner-promo-content-title {
+  min-height    : 34px;
+  padding-left  : 48px;
+  padding-top   : 4px;
+  margin-bottom : 20px;
+  line-height   : 1.2;
+  font-size     : 24px;
+  font-weight   : 800;
+  font-family   : "Open Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color         : rgb(22, 85, 154);
+  background    : url("../img/check.png") 0 0 no-repeat #ffffff;
+}
+.banner-promo p {
+  margin      : 8px 0;
+  line-height : 1.5;
+  font-size   : 15px;
+  font-weight : 600;
+  color       : #131313;
+  text-align  : left;
+}
+.banner-promo span {
+  color       : rgb(22, 85, 154);
+  font-weight : 800;
+}
+.banner-promo a {
+  padding          : 8px 30px;
+  margin-top       : 20px;
+  background-color : #6eac35;
+  display          : inline-block;
+  font-size        : 15px;
+  line-height      : 1.5;
+  font-weight      : 700;
+  color            : #ffffff;
+  vertical-align   : middle;
+  text-align       : center;
+  letter-spacing   : 0.239px;
+  text-transform   : uppercase;
+  text-decoration: none;
+}
+.banner-promo a:hover {
+  background-color : #5a9835;
+  text-decoration: none;
+}
